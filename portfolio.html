@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio — Ritz-Carlton Astana</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="index.html">
+      <img class="brand__logo" src="img/logo.png" alt="Ritz-Carlton Logo">
+      <span class="brand__name">Ritz-Carlton Astana</span>
+    </a>
+    <nav class="nav__links">
+      <a href="index.html">Home</a>
+      <a href="grid.html">Spaces</a>
+      <a href="portfolio.html" class="is-active">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container py-4">
+    <header class="pagehead">
+      <h1>Hotel Portfolio</h1>
+      <p class="muted">Grid for layout (projects left, sidebar right) + Flex внутри карточек.</p>
+    </header>
+
+    <section class="portfolio">
+      <div class="projects">
+        <article class="project">
+          <div class="project__thumb" style="background-image:url('img/p1.jpg')"></div>
+          <h3 class="project__title">Luxury Rooms</h3>
+          <p class="project__text">Elegant interiors, premium linens, and panoramic views for exceptional comfort.</p>
+          <a class="btn" href="#">View Rooms</a>
+        </article>
+        <article class="project">
+          <div class="project__thumb" style="background-image:url('img/p2.jpg')"></div>
+          <h3 class="project__title">Gourmet Dining</h3>
+          <p class="project__text">Seasonal menus and signature cocktails inspired by local and global flavors.</p>
+          <a class="btn" href="#">Explore Dining</a>
+        </article>
+        <article class="project">
+          <div class="project__thumb" style="background-image:url('img/p3.jpg')"></div>
+          <h3 class="project__title">Events & Meetings</h3>
+          <p class="project__text">Ballrooms and boardrooms with advanced AV for conferences and celebrations.</p>
+          <a class="btn" href="#">Plan Events</a>
+        </article>
+        <article class="project">
+          <div class="project__thumb" style="background-image:url('img/p4.jpg')"></div>
+          <h3 class="project__title">Spa & Wellness</h3>
+          <p class="project__text">Signature treatments, sauna, and pool to rejuvenate body and mind.</p>
+          <a class="btn" href="#">Visit Spa</a>
+        </article>
+      </div>
+
+      <aside class="sidebar">
+        <h3 class="sidebar__title">Concierge</h3>
+        <ul class="sidebar__list">
+          <li><a href="#">Reservations</a></li>
+          <li><a href="#">Airport Transfers</a></li>
+          <li><a href="#">City Experiences</a></li>
+        </ul>
+        <hr>
+        <p class="sidebar__note">For tailored itineraries and VIP services, contact our concierge team anytime.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="footer"><p>© 2025 The Ritz-Carlton, Astana — Part 3 / Task 4</p></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
